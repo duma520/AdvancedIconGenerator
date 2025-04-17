@@ -1,0 +1,26 @@
+# 基础依赖
+Pillow>=9.0.0  # 图像处理核心库
+tk>=0.1.0      # GUI界面
+
+# SVG处理
+svgwrite>=1.4.1
+cairosvg>=2.5.2
+svglib>=1.1.0
+reportlab>=3.6.3
+
+# 数据处理
+numpy>=1.21.0
+matplotlib>=3.5.0  # 图表生成
+
+# 额外功能
+emoji>=1.6.3       # Emoji支持
+cssutils>=2.3.0    # CSS解析
+
+# 开发依赖 (可选)
+pytest>=7.0.0      # 单元测试
+black>=22.1.0      # 代码格式化
+flake8>=4.0.1      # 代码检查
+
+# 平台特定依赖
+pywin32>=300 ; sys_platform == 'win32'  # Windows系统支持
+pyobjc>=8.0 ; sys_platform == 'darwin'  # macOS系统支持
