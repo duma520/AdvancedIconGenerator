@@ -1,0 +1,2 @@
+# AdvancedIconGenerator
+高级图标生成工具，高级图标生成工具是一款功能强大的跨平台图标设计软件，能够将图片、文字、SVG、Emoji、Unicode符号、CSS样式和Matplotlib图表转换为专业品质的图标。支持多种输出格式和自定义选项，适用于各种应用场景。
